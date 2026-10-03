@@ -24,7 +24,268 @@
 
 .acao-licao.prompts{color:#681218;background:#fff2cf;border-color:#d9bd71;text-decoration:none}
 .acao-licao.prompts:hover{background:#ffe7a5;box-shadow:0 5px 14px rgba(104,18,24,.10)}
-</style></head>
+</style><style id="ebd-visual-moderno-adolescentes-4t2026">
+
+@media screen {
+  :root{
+    --vinho:#252a2f;
+    --vinho-escuro:#171b1f;
+    --dourado:#e0ad28;
+    --dourado-claro:#f3cb5d;
+    --papel:#fffefd;
+    --creme:#f2f1ed;
+    --texto:#2e3235;
+    --muted:#6d7276;
+    --linha:#d8d9d6;
+    --azul:#6b9db5;
+    --azul-claro:#eef5f7;
+    --vermelho:#c92328;
+    --topo:68px;
+    --sombra:0 18px 42px rgba(29,34,38,.12);
+  }
+
+  body{
+    background:
+      radial-gradient(circle at 86% 3%,rgba(107,157,181,.16),transparent 26rem),
+      radial-gradient(circle at 16% 18%,rgba(224,173,40,.08),transparent 22rem),
+      linear-gradient(180deg,#edf2f4 0%,#f4f1eb 35rem,#f4f3ef 100%);
+  }
+
+  .site-header{
+    min-height:var(--topo);
+    background:
+      radial-gradient(circle at 82% 0%,rgba(224,173,40,.16),transparent 22rem),
+      linear-gradient(100deg,#171b1f,#29343b 62%,#344b56);
+    border-bottom:1px solid rgba(255,255,255,.08);
+    box-shadow:0 9px 26px rgba(23,27,31,.20);
+  }
+  .site-header-inner{min-height:var(--topo);max-width:1180px}
+  .brand{font-size:1.2rem;color:#fff}
+  .brand small{color:var(--dourado-claro)}
+  .top-links{gap:7px}
+  .top-links a{
+    padding:10px 12px;border:1px solid transparent;border-radius:10px;
+    color:#eff4f6;transition:background .16s ease,border-color .16s ease,transform .16s ease
+  }
+  .top-links a:hover,.top-links a:focus-visible{
+    transform:translateY(-1px);
+    background:rgba(255,255,255,.08);
+    border-color:rgba(255,255,255,.12)
+  }
+  .reading-progress{background:linear-gradient(90deg,var(--vermelho),var(--dourado),#9bc6d8)}
+
+  .container{
+    width:min(1120px,calc(100% - 24px));
+    margin:30px auto 76px;
+    padding:clamp(16px,3.2vw,36px);
+    border:1px solid rgba(46,50,53,.08);
+    border-radius:26px;
+    background:rgba(255,254,253,.94);
+    box-shadow:0 22px 58px rgba(29,34,38,.10);
+  }
+
+  .hero{
+    position:relative;
+    overflow:hidden;
+    grid-template-columns:minmax(190px,300px) 1fr;
+    gap:clamp(24px,5vw,58px);
+    padding:clamp(22px,4vw,42px);
+    border-radius:22px;
+    background:
+      radial-gradient(circle at 84% 16%,rgba(224,173,40,.22),transparent 27%),
+      radial-gradient(circle at 96% 110%,rgba(107,157,181,.26),transparent 34%),
+      linear-gradient(128deg,#171b1f 0%,#303a40 58%,#586b74 100%);
+    box-shadow:0 20px 48px rgba(23,27,31,.18);
+  }
+  .hero::after{
+    content:"";position:absolute;right:-85px;top:-115px;width:260px;height:260px;
+    border:1px solid rgba(255,255,255,.10);border-radius:50%;
+    box-shadow:0 0 0 42px rgba(255,255,255,.025);pointer-events:none
+  }
+  .hero > *{position:relative;z-index:1}
+  .hero img{
+    border-radius:14px;
+    box-shadow:0 20px 42px rgba(0,0,0,.32);
+    border:1px solid rgba(255,255,255,.10)
+  }
+  .hero-kicker{color:var(--dourado-claro)}
+  .hero h1{font-size:clamp(2.2rem,5.4vw,4.5rem);letter-spacing:-.04em}
+  .hero p:not(.hero-kicker){color:#e3e9ec}
+  .hero-tags span{
+    border-color:rgba(255,255,255,.17);
+    background:rgba(255,255,255,.075);
+    color:#f5f7f8
+  }
+
+  .summary{margin:46px 0 58px}
+  .summary-heading span{color:#9c771d}
+  .summary-heading h2{color:#252a2f}
+  .summary-grid{gap:15px}
+  .summary-card{
+    min-height:120px;
+    border:1px solid #d9ddde;
+    border-radius:15px;
+    background:#fff;
+    box-shadow:0 9px 24px rgba(29,34,38,.065);
+    transition:transform .17s ease,box-shadow .17s ease,border-color .17s ease
+  }
+  .summary-card:hover,.summary-card:focus-visible{
+    transform:translateY(-4px);
+    border-color:#d6b151;
+    box-shadow:0 15px 32px rgba(29,34,38,.12);
+    outline:none
+  }
+  .summary-card img{filter:saturate(.98) contrast(1.02)}
+  .summary-card span{color:#9b7418}
+  .summary-card strong{color:#252a2f}
+
+  .lesson{
+    padding:42px 0 54px;
+    border-top:1px solid #dcdedc
+  }
+  .lesson-cover{margin-bottom:22px}
+  .lesson-cover img{
+    border-radius:18px;
+    box-shadow:0 20px 46px rgba(29,34,38,.16);
+    border:1px solid rgba(31,36,40,.08)
+  }
+
+  .acoes-licao{
+    gap:9px;
+    padding:14px 15px;
+    margin:12px 0 20px;
+    border:1px solid #dadeda;
+    border-left:5px solid var(--dourado);
+    border-radius:14px;
+    background:linear-gradient(115deg,#f7f5ef,#fff);
+    box-shadow:0 7px 20px rgba(29,34,38,.05)
+  }
+  .acoes-licao .rotulo-acoes{color:#50565a;font-size:.74rem}
+  .acao-licao{
+    min-height:43px;
+    border-radius:11px;
+    padding:10px 14px
+  }
+  .acao-licao.copiar{background:#edf7f2;color:#356a56;border-color:#c6ded2}
+  .acao-licao.imprimir{background:#252a2f;border-color:#252a2f;color:#fff}
+  .acao-licao.prompts{
+    color:#624914;background:#fff7dc;border-color:#e6ca74;text-decoration:none
+  }
+
+  .lesson-toolbar a{color:#6b7377}
+
+  .lesson-source h2{
+    margin:0 0 16px;
+    padding:14px 17px;
+    border-left:6px solid var(--dourado);
+    border-radius:0 12px 12px 0;
+    color:#22272b;
+    background:
+      linear-gradient(90deg,#f5edcf,#f8f8f5 78%);
+    box-shadow:0 5px 16px rgba(29,34,38,.04)
+  }
+  .lesson-source h3{color:#343a3e}
+  .lesson-source p{line-height:1.76}
+
+  .lesson-source .base{
+    border-left:5px solid var(--vermelho);
+    border-radius:11px;
+    background:linear-gradient(135deg,#f9eeee,#fff)
+  }
+  .lesson-source .field{
+    border-left:5px solid var(--azul);
+    border-radius:13px;
+    background:linear-gradient(135deg,#eef5f7,#fff);
+    box-shadow:0 6px 18px rgba(29,34,38,.035)
+  }
+  .lesson-source .field h3{color:#365d70}
+  .lesson-source .verse{
+    border-left-color:var(--dourado);
+    background:linear-gradient(135deg,#fff7df,#fff)
+  }
+  .lesson-source .verse h3{color:#856315}
+  .lesson-source .activity{
+    border-left-color:#4e9077;
+    background:linear-gradient(135deg,#edf8f3,#fff)
+  }
+  .lesson-source .note{
+    border-left:4px solid #6b9db5;
+    border-radius:0 10px 10px 0;
+    background:#edf5f8;
+    color:#365d70
+  }
+  .lesson-source .conclusion{
+    position:relative;overflow:hidden;
+    border:0;
+    border-radius:15px;
+    color:#fff;
+    background:
+      radial-gradient(circle at 94% 15%,rgba(224,173,40,.22),transparent 25%),
+      linear-gradient(135deg,#1d2226,#40515a);
+    box-shadow:0 10px 26px rgba(29,34,38,.13)
+  }
+  .lesson-source .conclusion h3,.lesson-source .conclusion p{color:#fff}
+  .lesson-source .complement{
+    border-left:5px solid var(--dourado);
+    border-radius:13px;
+    background:linear-gradient(135deg,#fff8e6,#fff)
+  }
+  .lesson-source .answers{
+    border:1px solid #c9dde6;
+    border-left:5px solid var(--azul);
+    border-radius:13px;
+    background:linear-gradient(135deg,#edf5f8,#fff)
+  }
+  .lesson-source .promo{
+    border:1px solid #d6dcdf;
+    border-top:4px solid var(--vermelho);
+    border-radius:14px;
+    background:linear-gradient(135deg,#f8f8f6,#fff);
+    box-shadow:0 7px 18px rgba(29,34,38,.04)
+  }
+  .lesson-source .promo h3{color:#343a3e}
+  .lesson-source .promo a{color:#346b84}
+
+  .lesson-navigation{gap:9px}
+  .lesson-navigation a{
+    min-height:47px;
+    border-color:#d9ddde;
+    border-radius:11px;
+    color:#252a2f;
+    box-shadow:0 4px 12px rgba(29,34,38,.035)
+  }
+  .lesson-navigation a:hover,.lesson-navigation a:focus-visible{
+    background:#252a2f;color:#fff
+  }
+  .floating-summary{
+    border:1px solid rgba(255,255,255,.10);
+    background:linear-gradient(135deg,#252a2f,#40515a);
+    box-shadow:0 10px 28px rgba(23,27,31,.24)
+  }
+  .site-footer{
+    color:#d6dde0;
+    background:linear-gradient(135deg,#171b1f,#303a40)
+  }
+  .site-footer strong{color:var(--dourado-claro)}
+
+  a:focus-visible,button:focus-visible{
+    outline:3px solid rgba(224,173,40,.54);outline-offset:3px
+  }
+
+  @media(max-width:720px){
+    .container{border-radius:18px}
+    .hero{border-radius:17px;padding:21px 17px}
+    .summary-card{border-radius:12px}
+    .lesson-cover img{border-radius:13px}
+  }
+  @media(max-width:650px){
+    .acoes-licao{padding:12px}
+    .acao-licao{min-height:47px}
+  }
+}
+
+</style>
+</head>
 <body id="topo">
 <header class="site-header"><div class="site-header-inner"><a class="brand" href="#topo">Viver+<small>Jesus, o Salvador!</small></a><nav aria-label="Navegação principal" class="top-links"><a href="#topo">Início</a><a href="#sumario">Sumário</a><a href="prompts-adolescentes-4t-2026.html">Prompts EBD Fiel</a><a href="https://ebdfiel.com.br/2026/Apoio%20Pedag%C3%B3gico/adolescentes/trimestre-04/" rel="noopener noreferrer" target="_blank">Apoio Pedagógico</a></nav></div><div aria-hidden="true" class="reading-progress" id="reading-progress"></div></header>
 <main class="container">
